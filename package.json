@@ -1,7 +1,7 @@
 {
-  "name": "bitcoind-rpc",
-  "description": "Bitcoin Client Library to connect to Bitcoin Core via RPC",
-  "version": "0.8.1",
+  "name": "widecoind-rpc",
+  "description": "Widecoin Client Library to connect to Widecoin Core via RPC",
+  "version": "0.8.2",
   "author": {
     "name": "Stephen Pair",
     "email": "stephen@bitpay.com"
@@ -22,15 +22,19 @@
     {
       "name": "Braydon Fuller",
       "email": "braydon@bitpay.com"
+    },
+    {
+      "name": "David Jack",
+      "email": "david@widecoin.org"
     }
   ],
   "keywords": [
-    "bitcoin",
+    "widecoin",
     "rpc"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcoind-rpc"
+    "url": "https://github.com/widecoin-project/widecoind-rpc"
   },
   "license": "MIT",
   "main": "lib/index.js",
@@ -47,7 +51,7 @@
     "sinon": "^1.12.2"
   },
   "bugs": {
-    "url": "https://github.com/bitpay/bitcoind-rpc/issues"
+    "url": "https://github.com/widecoin-project/widecoind-rpc/issues"
   },
-  "homepage": "https://github.com/bitpay/bitcoind-rpc"
+  "homepage": "https://github.com/widecoin-project/widecoind-rpc"
 }
